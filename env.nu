@@ -1,4 +1,4 @@
 export-env {
-	let-env PAGER = 'sp'
+	load-env {PAGER: 'sp'}
 	#let-env MANPAGER = 'sp'
 }
